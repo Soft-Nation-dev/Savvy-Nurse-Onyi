@@ -180,8 +180,8 @@ header{
 }
 
 .nav-button {
- height: 25px;
- width: 35px;
+ height: 23px;
+ width: 33px;
  display: flex;
  align-items: center;
  justify-content: center;
@@ -216,21 +216,19 @@ header{
   border-bottom: 2px solid #90C3C8;
 }
 
-/* Scroll container */
+
 .scrolling-nav {
   overflow-x: auto;
    margin-inline-start: 50px;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
-  padding: 8px 10px;
 }
 
-/* Hide scrollbar */
+
 .scrolling-nav::-webkit-scrollbar {
   display: none;
 }
 
-/* Horizontal flex list */
 .scrolling-nav ul {
   display: flex;
   gap: 20px;
@@ -245,6 +243,7 @@ header{
   flex: 0 0 auto;
   color: #E6F0F2;
   font-weight: 500;
+  font-size: 14px;
   white-space: nowrap;
   cursor: pointer;
   transition: color 0.3s, border-bottom 0.3s;
@@ -430,5 +429,8 @@ header{
   .cart-btn{
     padding: 4px 7px;
     font-size: 10px;
+  }
+  .right-section nav ul li {
+   font-size: 5px;
   }
 }

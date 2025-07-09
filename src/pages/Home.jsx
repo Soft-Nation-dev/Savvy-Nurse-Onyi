@@ -32,7 +32,7 @@ function Home() {
         </div>
        </div>
         <div>
-          <img className='home-image' src="/images/HomeImg.png" alt="Home" />
+          <img className='home-image' src={`${import.meta.env.BASE_URL}images/HomeImg.png`} alt="Home" />
         </div>
       </section>
 
