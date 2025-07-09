@@ -49,3 +49,10 @@
   font-size: 13px;
   color: #BFDCE5;
 }
+
+@media (max-width:689px) {
+  .footer-container{
+    flex-direction: column;
+  }
+}
+

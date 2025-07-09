@@ -16,19 +16,14 @@ function Home() {
         </div>
         <div>
           <h4>
-              Hi, I am Unah Onyinyechi Patience, also known as The Tech Savvy Nurse Onyi — a passionate nurse educator, 
-              digital innovator, and your go-to guide for making nursing education simpler, smarter, and way more exciting.
-              At Tech Savvy Nurse Onyi, we do not just teach, we transform how nurses learn. From colorful flashcards to clinical handbooks, 
-              digital diagrams to simplified pharmacology and Med-Surg bundles — we are redefining nursing education with creativity, tech, and heart.
-              I have worn many hats, from scrubs in surgery, to the classroom teaching Med-Surg, 
-              to designing study tools for nursing students who just want it to make sense.
-              If you have ever whispered “this is too hard” while flipping through your notes, 
-              trust me — I have been there. That is why I created this space.This is where nursing meets creativity, 
-              tech meets education, and your learning struggles meet their final goodbye.
-              So, whether you are preparing for an exam, brushing up on clinical knowledge, 
-              or just tired of boring PDFs — welcome to your new study bestie.
-              Let us simplify. Let us visualize. Let us make learning feel like you've got this.
-              I am Onyi  and I am here to help you learn smarter, not harder.
+             Hi, I’m Unah Onyinyechi Patience — The Tech Savvy Nurse Onyi.
+              I’m a nurse educator and digital innovator passionate about making nursing education simpler,
+               smarter, and more engaging. Through creative tools like flashcards, diagrams, handbooks, and Med-Surg bundles, I help nursing students learn with ease and confidence.
+              With experience from the OR to the classroom, 
+              I understand the struggles of complex topics — and that’s why I created this platform: 
+              where tech meets nursing, and boring notes become exciting learning tools.
+              Whether you’re studying for exams or brushing up on clinical skills, 
+              I’m here to help you learn smarter, not harder.
           </h4>
         </div>
          <div className="cta-buttons">
@@ -37,7 +32,7 @@ function Home() {
         </div>
        </div>
         <div>
-          <img className='home-image' src="/images/home_image-removebg-preview.png" alt="" />
+          <img className='home-image' src="/images/HomeImg.png" alt="Home" />
         </div>
       </section>
 

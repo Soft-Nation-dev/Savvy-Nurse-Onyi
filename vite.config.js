@@ -1,8 +1,9 @@
 
+// vite.config.js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-export default defineConfig({
-  base: '/soft-nation-dev/', // <--- your repo name
+export default defineConfig(({ mode }) => ({
+  base: mode === 'production' ? '/Savvy-Nurse-Onyi/' : '/',
   plugins: [react()],
-})
+}));

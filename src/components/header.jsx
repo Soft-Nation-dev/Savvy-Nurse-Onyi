@@ -68,28 +68,39 @@ const handleMenuItemClick = () => {
           <img className="burger-img" src={hamburger} alt="Menu" />
         </button>
 
-        <div className="right-section">
-          <nav>
+        
+          <nav className="scrolling-nav right-section">
             <ul>
               <li>Flashcards</li>
               <li>Clinical Handbooks</li>
               <li>Digital Diagrams</li>
               <li>Med-Surg Bundles</li>
+              <li>Exam Tips</li>
+              <li>Quick Notes</li>
             </ul>
           </nav>
-        </div>
+        
+
       </section>
 
  {menuVisible && (
-  <div className={`dropdown-menu ${menuOpen ? 'open' : 'closing'}`}>
-    <button className="close-btn" onClick={handleMenuItemClick}>✕</button>
-    <ul>
+  <section className={`dropdown-menu ${menuOpen ? 'open' : 'closing'}`}>
+      <div className="left-sectionb">
+          <img className="logo-imgb" src={logo} alt="Site Logo" />
+          <div className="logo-textb">Tech Savvy Nurse Onyi</div>
+         <div>
+           <button className="close-btn" onClick={handleMenuItemClick}>✕</button>
+         </div>
+        </div>
+       <div className="right-sectionb">
+        <ul>
       <li onClick={handleMenuItemClick}>Home</li>
       <li onClick={handleMenuItemClick}>Shop</li>
       <li onClick={handleMenuItemClick}>Customer Service</li>
       <li onClick={handleMenuItemClick}>About Onyi</li>
     </ul>
-  </div>
+       </div>
+  </section>
 )}
 
 
