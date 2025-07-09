@@ -414,10 +414,10 @@ header{
 
 @media (max-width: 405px) {
   .logo-text{
-    font-size: 9PX;
+    font-size: 11PX;
   }
   .logo-img{
-    height: 20px;
+    height: 22px;
   }
   .sign-in-btn{
     padding: 7px 10px;
