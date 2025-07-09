@@ -411,3 +411,24 @@ header{
     font-size: 14px;
   }
 }
+
+@media (max-width: 405px) {
+  .logo-text{
+    font-size: 9PX;
+  }
+  .logo-img{
+    height: 20px;
+  }
+  .sign-in-btn{
+    padding: 7px 10px;
+    font-size: 9px;
+  }
+  .orders-btn{
+    padding: 2px;
+    font-size: 10px;
+  }
+  .cart-btn{
+    padding: 4px 7px;
+    font-size: 10px;
+  }
+}
